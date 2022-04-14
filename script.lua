@@ -1,4 +1,4 @@
--- Made By Arch
+-- Made by Arch
 -- Fuck you Piixel
 -- Gui to Lua
 -- Version: 3.2
@@ -15,6 +15,7 @@ local CMDX = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local InfiniteYiff = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
+local OpenwithRightShift = Instance.new("TextLabel")
 local UICorner_5 = Instance.new("UICorner")
 local Close = Instance.new("TextButton")
 local RustHub = Instance.new("TextLabel")
@@ -81,6 +82,18 @@ InfiniteYiff.TextSize = 36.000
 UICorner_4.CornerRadius = UDim.new(1, 1)
 UICorner_4.Parent = InfiniteYiff
 
+OpenwithRightShift.Name = "Open with Right Shift"
+OpenwithRightShift.Parent = Main
+OpenwithRightShift.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenwithRightShift.BackgroundTransparency = 1.000
+OpenwithRightShift.Position = UDim2.new(0, 0, 0.868766427, 0)
+OpenwithRightShift.Size = UDim2.new(0, 517, 0, 50)
+OpenwithRightShift.Font = Enum.Font.FredokaOne
+OpenwithRightShift.Text = "Open GUI with Right  Shift                                          Made by Arch"
+OpenwithRightShift.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenwithRightShift.TextSize = 20.000
+OpenwithRightShift.TextWrapped = true
+
 UICorner_5.Parent = Drag
 
 Close.Name = "Close"
@@ -114,7 +127,7 @@ UICorner_6.Parent = RustHub
 
 -- Scripts:
 
-local function RHSGI_fake_script() -- Drag.Handler 
+local function RHLK_fake_script() -- Drag.Handler 
 	local script = Instance.new('LocalScript', Drag)
 
 	--//Dragable Dont Edit
@@ -160,15 +173,20 @@ local function RHSGI_fake_script() -- Drag.Handler
 	end)
 	
 	--//Open Close
+	local Button = script.Parent.Close
+	Button.MouseButton1Click:Connect(function()
+		gui.Visible = false
+		toggle = false
+	end)
 	
-	UserInputService.InputBegan:Connect(function(input)
-		if input.KeyCode == Enum.KeyCode.RightShift then
+	UserInputService.InputBegan:Connect(function(input2)
+		if input2.KeyCode == Enum.KeyCode.RightShift then
 			if toggle then
-				gui.Main.Visible = false
-				local toggle = false
+				gui.Visible = false
+				toggle = false
 			elseif not toggle then
-				gui.Main.Visible = true
-				local toggle = true
+				gui.Visible = true
+				toggle = true
 			end
 		end
 	end)
@@ -193,4 +211,4 @@ local function RHSGI_fake_script() -- Drag.Handler
 	
 	--//More??
 end
-coroutine.wrap(RHSGI_fake_script)()
+coroutine.wrap(RHLK_fake_script)()
