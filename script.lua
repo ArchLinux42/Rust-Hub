@@ -1,5 +1,5 @@
--- Made by Arch
--- Fuck you piixel
+-- Made By Arch
+-- Fuck you Piixel
 -- Gui to Lua
 -- Version: 3.2
 
@@ -7,24 +7,18 @@
 
 local ScreenGui = Instance.new("ScreenGui")
 local Drag = Instance.new("Frame")
-local Beta = Instance.new("ImageLabel")
-local TextLabel = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
-local Top = Instance.new("Frame")
-local pphub = Instance.new("TextLabel")
-local TextButton_2 = Instance.new("TextButton")
-local MainWindow = Instance.new("ImageLabel")
-local TextButton_3 = Instance.new("TextButton")
-local CMDX = Instance.new("TextButton")
+local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
-local Gamesense = Instance.new("TextButton")
+local OwlHub = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
-local Owl = Instance.new("TextButton")
+local CMDX = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
-local TextLabel_2 = Instance.new("TextLabel")
-local Top_2 = Instance.new("Frame")
-local pphub_2 = Instance.new("TextLabel")
-local TextButton_4 = Instance.new("TextButton")
+local InfiniteYiff = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local RustHub = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
 
 --Properties:
 
@@ -33,202 +27,102 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Drag.Name = "Drag"
 Drag.Parent = ScreenGui
-Drag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Drag.BackgroundTransparency = 1.000
-Drag.Position = UDim2.new(0.222573012, 0, 0.323926389, 0)
-Drag.Size = UDim2.new(0, 360, 0, 44)
+Drag.AnchorPoint = Vector2.new(0.5, 0.5)
+Drag.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Drag.Position = UDim2.new(0.496228784, 0, 0.200000003, 0)
+Drag.Size = UDim2.new(0, 517, 0, 80)
 
-Beta.Name = "Beta"
-Beta.Parent = Drag
-Beta.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Beta.BackgroundTransparency = 1.000
-Beta.Position = UDim2.new(-0.0625538304, 0, -0.438181102, 0)
-Beta.Size = UDim2.new(0, 361, 0, 365)
-Beta.Image = "rbxassetid://3570695787"
-Beta.ImageColor3 = Color3.fromRGB(38, 38, 38)
-Beta.ScaleType = Enum.ScaleType.Slice
-Beta.SliceCenter = Rect.new(100, 100, 100, 100)
-Beta.SliceScale = 0.120
+Main.Name = "Main"
+Main.Parent = Drag
+Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Main.Position = UDim2.new(0, 0, 0.481888592, 0)
+Main.Size = UDim2.new(0, 517, 0, 381)
+Main.ZIndex = 0
 
-TextLabel.Parent = Beta
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0, 0, 0.116991647, 0)
-TextLabel.Size = UDim2.new(0, 360, 0, 303)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "More coming soon gui scuffed :P also fuck you piixel"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextSize = 56.000
-TextLabel.TextWrapped = true
+UICorner.CornerRadius = UDim.new(0.100000001, 0)
+UICorner.Parent = Main
 
-TextButton.Name = "<"
-TextButton.Parent = Beta
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.BackgroundTransparency = 1.000
-TextButton.Position = UDim2.new(-0.00149339414, 0, 0.858096182, 0)
-TextButton.Size = UDim2.new(0, 38, 0, 50)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "<"
-TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextWrapped = true
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = Main
+OwlHub.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+OwlHub.Position = UDim2.new(0.23210831, 0, 0.107611552, 0)
+OwlHub.Size = UDim2.new(0, 277, 0, 62)
+OwlHub.Font = Enum.Font.FredokaOne
+OwlHub.Text = "Owl Hub"
+OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.TextSize = 36.000
 
-Top.Name = "Top"
-Top.Parent = Beta
-Top.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-Top.Position = UDim2.new(0, 0, -0.000795798085, 0)
-Top.Size = UDim2.new(0, 360, 0, 44)
-
-pphub.Name = "pphub"
-pphub.Parent = Top
-pphub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-pphub.BackgroundTransparency = 1.000
-pphub.Position = UDim2.new(0.194509625, 0, -0.0235228539, 0)
-pphub.Size = UDim2.new(0, 219, 0, 44)
-pphub.Font = Enum.Font.SourceSans
-pphub.Text = "PP Hub"
-pphub.TextColor3 = Color3.fromRGB(255, 255, 255)
-pphub.TextScaled = true
-pphub.TextSize = 14.000
-pphub.TextWrapped = true
-
-TextButton_2.Parent = Top
-TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_2.BackgroundTransparency = 1.000
-TextButton_2.BorderSizePixel = 0
-TextButton_2.Position = UDim2.new(0.894436777, 0, -0.00411498547, 0)
-TextButton_2.Size = UDim2.new(0, 38, 0, 44)
-TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "X"
-TextButton_2.TextColor3 = Color3.fromRGB(255, 0, 4)
-TextButton_2.TextScaled = true
-TextButton_2.TextSize = 14.000
-TextButton_2.TextWrapped = true
-
-MainWindow.Name = "Main Window"
-MainWindow.Parent = Drag
-MainWindow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MainWindow.BackgroundTransparency = 1.000
-MainWindow.Position = UDim2.new(-0.0625538304, 0, -0.438181102, 0)
-MainWindow.Size = UDim2.new(0, 361, 0, 365)
-MainWindow.Image = "rbxassetid://3570695787"
-MainWindow.ImageColor3 = Color3.fromRGB(38, 38, 38)
-MainWindow.ScaleType = Enum.ScaleType.Slice
-MainWindow.SliceCenter = Rect.new(100, 100, 100, 100)
-MainWindow.SliceScale = 0.120
-
-TextButton_3.Name = ">"
-TextButton_3.Parent = MainWindow
-TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_3.BackgroundTransparency = 1.000
-TextButton_3.BorderSizePixel = 0
-TextButton_3.Position = UDim2.new(0.892943323, 0, 0.855699778, 0)
-TextButton_3.Size = UDim2.new(0, 38, 0, 50)
-TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = ">"
-TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_3.TextScaled = true
-TextButton_3.TextSize = 14.000
-TextButton_3.TextWrapped = true
+UICorner_2.CornerRadius = UDim.new(1, 1)
+UICorner_2.Parent = OwlHub
 
 CMDX.Name = "CMD-X"
-CMDX.Parent = MainWindow
-CMDX.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-CMDX.Position = UDim2.new(0.221542493, 0, 0.629709601, 0)
-CMDX.Size = UDim2.new(0, 200, 0, 50)
-CMDX.Font = Enum.Font.SourceSans
+CMDX.Parent = Main
+CMDX.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+CMDX.Position = UDim2.new(0.23210831, 0, 0.377952754, 0)
+CMDX.Size = UDim2.new(0, 277, 0, 62)
+CMDX.Font = Enum.Font.FredokaOne
 CMDX.Text = "CMD-X"
 CMDX.TextColor3 = Color3.fromRGB(255, 255, 255)
 CMDX.TextSize = 36.000
 
-UICorner.CornerRadius = UDim.new(0.5, 0)
-UICorner.Parent = CMDX
+UICorner_3.CornerRadius = UDim.new(1, 1)
+UICorner_3.Parent = CMDX
 
-Gamesense.Name = "Gamesense"
-Gamesense.Parent = MainWindow
-Gamesense.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-Gamesense.BorderSizePixel = 0
-Gamesense.Position = UDim2.new(0.221542493, 0, 0.22374922, 0)
-Gamesense.Size = UDim2.new(0, 200, 0, 50)
-Gamesense.ZIndex = 2
-Gamesense.Font = Enum.Font.SourceSans
-Gamesense.Text = "Gamesense"
-Gamesense.TextColor3 = Color3.fromRGB(255, 255, 255)
-Gamesense.TextSize = 36.000
-Gamesense.TextWrapped = true
+InfiniteYiff.Name = "Infinite Yiff"
+InfiniteYiff.Parent = Main
+InfiniteYiff.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+InfiniteYiff.Position = UDim2.new(0.23210831, 0, 0.648293972, 0)
+InfiniteYiff.Size = UDim2.new(0, 277, 0, 62)
+InfiniteYiff.Font = Enum.Font.FredokaOne
+InfiniteYiff.Text = "Infinite Yield"
+InfiniteYiff.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYiff.TextSize = 36.000
 
-UICorner_2.CornerRadius = UDim.new(0.5, 0)
-UICorner_2.Parent = Gamesense
+UICorner_4.CornerRadius = UDim.new(1, 1)
+UICorner_4.Parent = InfiniteYiff
 
-Owl.Name = "Owl"
-Owl.Parent = MainWindow
-Owl.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-Owl.Position = UDim2.new(0.218764707, 0, 0.429128259, 0)
-Owl.Size = UDim2.new(0, 200, 0, 50)
-Owl.Font = Enum.Font.SourceSans
-Owl.Text = "Owl Hub"
-Owl.TextColor3 = Color3.fromRGB(255, 255, 255)
-Owl.TextSize = 36.000
-Owl.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+UICorner_5.Parent = Drag
 
-UICorner_3.CornerRadius = UDim.new(0.5, 0)
-UICorner_3.Parent = Owl
+Close.Name = "Close"
+Close.Parent = Drag
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Close.Position = UDim2.new(0.905222416, 0, 0, 0)
+Close.Size = UDim2.new(0, 49, 0, 39)
+Close.ZIndex = 4
+Close.Font = Enum.Font.FredokaOne
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
 
-TextLabel_2.Parent = MainWindow
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.0278085861, 0, 0.855699718, 0)
-TextLabel_2.Size = UDim2.new(0, 138, 0, 50)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Made By Arch"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
+RustHub.Name = "Rust Hub"
+RustHub.Parent = Drag
+RustHub.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+RustHub.Size = UDim2.new(0, 517, 0, 39)
+RustHub.ZIndex = 0
+RustHub.Font = Enum.Font.FredokaOne
+RustHub.Text = "Rust Hub"
+RustHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+RustHub.TextScaled = true
+RustHub.TextSize = 14.000
+RustHub.TextWrapped = true
 
-Top_2.Name = "Top"
-Top_2.Parent = MainWindow
-Top_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-Top_2.Position = UDim2.new(0, 0, -0.00271036895, 0)
-Top_2.Size = UDim2.new(0, 361, 0, 44)
-
-pphub_2.Name = "pphub"
-pphub_2.Parent = Top_2
-pphub_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-pphub_2.BackgroundTransparency = 1.000
-pphub_2.Position = UDim2.new(0.00332817435, 0, -0.0227273703, 0)
-pphub_2.Size = UDim2.new(0, 360, 0, 44)
-pphub_2.Font = Enum.Font.SourceSans
-pphub_2.Text = "Rust Hub"
-pphub_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-pphub_2.TextScaled = true
-pphub_2.TextSize = 14.000
-pphub_2.TextWrapped = true
-
-TextButton_4.Parent = Top_2
-TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_4.BackgroundTransparency = 1.000
-TextButton_4.BorderSizePixel = 0
-TextButton_4.Position = UDim2.new(0.894436777, 0, -0.00411498547, 0)
-TextButton_4.Size = UDim2.new(0, 38, 0, 44)
-TextButton_4.Font = Enum.Font.SourceSans
-TextButton_4.Text = "X"
-TextButton_4.TextColor3 = Color3.fromRGB(255, 0, 4)
-TextButton_4.TextScaled = true
-TextButton_4.TextSize = 14.000
-TextButton_4.TextWrapped = true
+UICorner_6.Parent = RustHub
 
 -- Scripts:
 
-local function LGZAB_fake_script() -- Drag.Dragify 
+local function RHSGI_fake_script() -- Drag.Handler 
 	local script = Instance.new('LocalScript', Drag)
 
+	--//Dragable Dont Edit
+	
 	local UserInputService = game:GetService("UserInputService")
 	
 	local gui = script.Parent
-	
+	local toggle = true
 	local dragging
 	local dragInput
 	local dragStart
@@ -264,113 +158,39 @@ local function LGZAB_fake_script() -- Drag.Dragify
 			update(input)
 		end
 	end)
-end
-coroutine.wrap(LGZAB_fake_script)()
-local function VGNBL_fake_script() -- TextButton.LocalScript 
-	local script = Instance.new('LocalScript', TextButton)
-
-	local Main = script.Parent.Parent.Parent["Main Window"]
-	local Button = script.Parent
-	local Beta = script.Parent.Parent.Parent["Beta"]
 	
-	Button.MouseButton1Click:Connect(function()
-		if Main.Visible == true then
-		elseif Main.Visible == false then
-			Main.Visible = true
-			Beta.Visible = false
-		end
-	end)
-end
-coroutine.wrap(VGNBL_fake_script)()
-local function SQLEW_fake_script() -- TextButton_2.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_2)
-
-	local UIS = game:GetService("UserInputService")
-	local Main = script.Parent.Parent.Parent.Parent
-	local toggled = true
-	local Button = script.Parent
+	--//Open Close
 	
-	UIS.InputBegan:Connect(function(input)
-		if input.KeyCode == Enum.KeyCode.Z then
-			if toggled then
-				Main.Visible = false
-				toggled = false
-			elseif not toggled then
-				Main.Visible = true
-				toggled = true
+	UserInputService.InputBegan:Connect(function(input)
+		if input.KeyCode == Enum.KeyCode.RightShift then
+			if toggle then
+				gui.Main.Visible = false
+				local toggle = false
+			elseif not toggle then
+				gui.Main.Visible = true
+				local toggle = true
 			end
 		end
 	end)
 	
-	script.Parent.MouseButton1Click:Connect(function()
-		Main.Visible = false
-		toggled = false
-	end)
-end
-coroutine.wrap(SQLEW_fake_script)()
-local function JXBPZFE_fake_script() -- TextButton_3.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_3)
-
-	local Main = script.Parent.Parent.Parent["Beta"]
-	local Button = script.Parent
-	local Beta = script.Parent.Parent
-	
-	Button.MouseButton1Click:Connect(function()
-		if Main.Visible == true then
-		elseif Main.Visible == false then
-			Main.Visible = true
-			Beta.Visible = false
-		end
-	end)
-end
-coroutine.wrap(JXBPZFE_fake_script)()
-local function DHKK_fake_script() -- CMDX.Script 
-	local script = Instance.new('Script', CMDX)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
-	end)
-end
-coroutine.wrap(DHKK_fake_script)()
-local function BUYJ_fake_script() -- Gamesense.Script 
-	local script = Instance.new('Script', Gamesense)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/MmhRhnXi"))()
-	end)
-end
-coroutine.wrap(BUYJ_fake_script)()
-local function ERNUXZT_fake_script() -- Owl.Script 
-	local script = Instance.new('Script', Owl)
-
-	script.Parent.MouseButton1Click:Connect(function()
+	--//Owl Hub
+	local Owl = script.Parent.Main.OwlHub
+	Owl.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
-end
-coroutine.wrap(ERNUXZT_fake_script)()
-local function HHAE_fake_script() -- TextButton_4.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_4)
-
-	local UIS = game:GetService("UserInputService")
-	local Main = script.Parent.Parent.Parent.Parent
-	local toggled = true
-	local Button = script.Parent
 	
-	UIS.InputBegan:Connect(function(input)
-		if input.KeyCode == Enum.KeyCode.Z then
-			if toggled then
-				Main.Visible = false
-				toggled = false
-			elseif not toggled then
-				Main.Visible = true
-				toggled = true
-			end
-		end
+	--//CMD-X
+	local CMD = script.Parent.Main["CMD-X"]
+	CMD.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 	
-	script.Parent.MouseButton1Click:Connect(function()
-		Main.Visible = false
-		toggled = false
+	--//Infinite Yiff
+	local Inf = script.Parent.Main["Infinite Yiff"]
+	Inf.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
+	
+	--//More??
 end
-coroutine.wrap(HHAE_fake_script)()
+coroutine.wrap(RHSGI_fake_script)()
