@@ -109,7 +109,7 @@ Main.Parent = Drag
 Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Main.Position = UDim2.new(0, 0, 0.54631567, 0)
 Main.Size = UDim2.new(0, 517, 0, 386)
-Main.Visible = false
+Main.Visible = true
 Main.ZIndex = 0
 
 UICorner_3.CornerRadius = UDim.new(0.100000001, 0)
@@ -411,6 +411,7 @@ Third.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Third.Position = UDim2.new(0, 0, 0.54631567, 0)
 Third.Size = UDim2.new(0, 517, 0, 385)
 Third.ZIndex = 0
+Third.Visible = false
 
 UICorner_12.CornerRadius = UDim.new(0.100000001, 0)
 UICorner_12.Parent = Third
