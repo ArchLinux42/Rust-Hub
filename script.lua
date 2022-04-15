@@ -108,8 +108,7 @@ Main.Name = "Main"
 Main.Parent = Drag
 Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Main.Position = UDim2.new(0, 0, 0.54631567, 0)
-Main.Size = UDim2.new(0, 517, 0, 386)
-Main.Visible = true
+Main.Size = UDim2.new(0, 517, 0, 384)
 Main.ZIndex = 0
 
 UICorner_3.CornerRadius = UDim.new(0.100000001, 0)
@@ -411,7 +410,6 @@ Third.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Third.Position = UDim2.new(0, 0, 0.54631567, 0)
 Third.Size = UDim2.new(0, 517, 0, 385)
 Third.ZIndex = 0
-Third.Visible = false
 
 UICorner_12.CornerRadius = UDim.new(0.100000001, 0)
 UICorner_12.Parent = Third
@@ -516,7 +514,7 @@ TextLabel_5.TextWrapped = true
 
 -- Scripts:
 
-local function QIZPDQB_fake_script() -- Scripts.Handler 
+local function DMXUGR_fake_script() -- Scripts.Handler 
 	local script = Instance.new('LocalScript', Scripts)
 
 	--//Dragable Dont Edit
@@ -700,6 +698,7 @@ local function QIZPDQB_fake_script() -- Scripts.Handler
 	reflex.MouseButton2Click:Connect(function()
 		cur.Visible = false
 		gui.Info.Reflex.Visible = true
+		gui.Info.Visible = true
 	end)
 	
 	--//Solaris
@@ -709,6 +708,7 @@ local function QIZPDQB_fake_script() -- Scripts.Handler
 	end)
 	Solaris.MouseButton2Click:Connect(function()
 		cur.Visible = false
+		gui.Info.Visible = true
 		gui.Info.Solaris.Visible = true
 	end)
 	
@@ -719,4 +719,4 @@ local function QIZPDQB_fake_script() -- Scripts.Handler
 	end)
 	
 end
-coroutine.wrap(QIZPDQB_fake_script)()
+coroutine.wrap(DMXUGR_fake_script)()
