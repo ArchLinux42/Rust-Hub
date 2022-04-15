@@ -1,3 +1,4 @@
+--//Version 2.0
 -- Gui to Lua
 -- Version: 3.2
 
@@ -108,7 +109,7 @@ Main.Name = "Main"
 Main.Parent = Drag
 Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Main.Position = UDim2.new(0, 0, 0.54631567, 0)
-Main.Size = UDim2.new(0, 517, 0, 384)
+Main.Size = UDim2.new(0, 517, 0, 385)
 Main.ZIndex = 0
 
 UICorner_3.CornerRadius = UDim.new(0.100000001, 0)
@@ -324,7 +325,7 @@ Info.Name = "Info"
 Info.Parent = Drag
 Info.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Info.Position = UDim2.new(0, 0, 0.527027011, 0)
-Info.Size = UDim2.new(0, 517, 0, 388)
+Info.Size = UDim2.new(0, 517, 0, 385)
 Info.Visible = false
 Info.ZIndex = 0
 
@@ -409,6 +410,7 @@ Third.Parent = Drag
 Third.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Third.Position = UDim2.new(0, 0, 0.54631567, 0)
 Third.Size = UDim2.new(0, 517, 0, 385)
+Third.Visible = false
 Third.ZIndex = 0
 
 UICorner_12.CornerRadius = UDim.new(0.100000001, 0)
@@ -514,7 +516,7 @@ TextLabel_5.TextWrapped = true
 
 -- Scripts:
 
-local function DMXUGR_fake_script() -- Scripts.Handler 
+local function GYXCZDF_fake_script() -- Scripts.Handler 
 	local script = Instance.new('LocalScript', Scripts)
 
 	--//Dragable Dont Edit
@@ -719,4 +721,4 @@ local function DMXUGR_fake_script() -- Scripts.Handler
 	end)
 	
 end
-coroutine.wrap(DMXUGR_fake_script)()
+coroutine.wrap(GYXCZDF_fake_script)()
