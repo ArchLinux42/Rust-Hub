@@ -96,6 +96,7 @@ Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Main.Position = UDim2.new(0, 0, 0.522506177, 0)
 Main.Size = UDim2.new(0, 517, 0, 388)
 Main.ZIndex = 0
+Main.Visible = true
 
 UICorner_3.CornerRadius = UDim.new(0.100000001, 0)
 UICorner_3.Parent = Main
@@ -204,6 +205,7 @@ Second.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Second.Position = UDim2.new(5.70435077e-09, 0, 0.516629159, 0)
 Second.Size = UDim2.new(0, 517, 0, 388)
 Second.ZIndex = 0
+Second.Visible = false
 
 UICorner_7.CornerRadius = UDim.new(0.100000001, 0)
 UICorner_7.Parent = Second
