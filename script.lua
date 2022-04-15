@@ -5,6 +5,7 @@
 
 -- Instances:
 
+local ScreenGui = Instance.new("ScreenGui")
 local Drag = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local Scripts = Instance.new("Folder")
@@ -45,12 +46,15 @@ local CMD = Instance.new("TextLabel")
 
 --Properties:
 
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
 Drag.Name = "Drag"
-Drag.Parent = game.StarterGui.ScreenGui
+Drag.Parent = ScreenGui
 Drag.AnchorPoint = Vector2.new(0.5, 0.5)
 Drag.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Drag.Position = UDim2.new(0.511313677, 0, 0.265644163, 0)
-Drag.Size = UDim2.new(0, 517, 0, 79)
+Drag.Position = UDim2.new(0.511313677, 0, 0.268711656, 0)
+Drag.Size = UDim2.new(0, 517, 0, 84)
 
 UICorner.Parent = Drag
 
@@ -89,7 +93,7 @@ Close.TextWrapped = true
 Main.Name = "Main"
 Main.Parent = Drag
 Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Main.Position = UDim2.new(0, 0, 0.501710534, 0)
+Main.Position = UDim2.new(0, 0, 0.522506177, 0)
 Main.Size = UDim2.new(0, 517, 0, 388)
 Main.ZIndex = 0
 
@@ -163,7 +167,7 @@ Right.Name = "Right"
 Right.Parent = Main
 Right.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Right.BackgroundTransparency = 1.000
-Right.Position = UDim2.new(0.876208961, 0, -0.00257731974, 0)
+Right.Position = UDim2.new(0.874274731, 0, 0.010309278, 0)
 Right.Size = UDim2.new(0, 64, 0, 388)
 Right.Font = Enum.Font.FredokaOne
 Right.Text = ">"
@@ -197,9 +201,8 @@ TextLabel_2.TextWrapped = true
 Second.Name = "Second"
 Second.Parent = Drag
 Second.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Second.Position = UDim2.new(0, 0, 0.489052296, 0)
+Second.Position = UDim2.new(5.70435077e-09, 0, 0.516629159, 0)
 Second.Size = UDim2.new(0, 517, 0, 388)
-Second.Visible = false
 Second.ZIndex = 0
 
 UICorner_7.CornerRadius = UDim.new(0.100000001, 0)
@@ -352,7 +355,7 @@ CMD.TextWrapped = true
 
 -- Scripts:
 
-local function IHAULI_fake_script() -- Scripts.Handler 
+local function LOAKMR_fake_script() -- Scripts.Handler 
 	local script = Instance.new('LocalScript', Scripts)
 
 	--//Dragable Dont Edit
@@ -509,4 +512,4 @@ local function IHAULI_fake_script() -- Scripts.Handler
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua"))()
 	end)
 end
-coroutine.wrap(IHAULI_fake_script)()
+coroutine.wrap(LOAKMR_fake_script)()
