@@ -35,12 +35,28 @@ local UICorner_10 = Instance.new("UICorner")
 local ForMoreinfo_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
 local Left = Instance.new("TextButton")
+local Right_2 = Instance.new("TextButton")
 local Info = Instance.new("Frame")
 local UICorner_11 = Instance.new("UICorner")
 local DEX = Instance.new("TextLabel")
 local Back = Instance.new("TextButton")
 local Yiff = Instance.new("TextLabel")
 local CMD = Instance.new("TextLabel")
+local Reflex = Instance.new("TextLabel")
+local Solaris = Instance.new("TextLabel")
+local Third = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local OpenwithRightShift_3 = Instance.new("TextLabel")
+local Reflex_2 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local VG = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Solaris_2 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local ForMoreinfo_3 = Instance.new("TextLabel")
+local Left_2 = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -51,7 +67,7 @@ Drag.Name = "Drag"
 Drag.Parent = ScreenGui
 Drag.AnchorPoint = Vector2.new(0.5, 0.5)
 Drag.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Drag.Position = UDim2.new(0.511313677, 0, 0.268711656, 0)
+Drag.Position = UDim2.new(0.499642909, 0, 0.263803691, 0)
 Drag.Size = UDim2.new(0, 517, 0, 84)
 
 UICorner.Parent = Drag
@@ -91,8 +107,9 @@ Close.TextWrapped = true
 Main.Name = "Main"
 Main.Parent = Drag
 Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Main.Position = UDim2.new(0, 0, 0.522506177, 0)
-Main.Size = UDim2.new(0, 517, 0, 388)
+Main.Position = UDim2.new(0, 0, 0.54631567, 0)
+Main.Size = UDim2.new(0, 517, 0, 386)
+Main.Visible = false
 Main.ZIndex = 0
 
 UICorner_3.CornerRadius = UDim.new(0.100000001, 0)
@@ -199,8 +216,9 @@ TextLabel_2.TextWrapped = true
 Second.Name = "Second"
 Second.Parent = Drag
 Second.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Second.Position = UDim2.new(5.70435077e-09, 0, 0.516629159, 0)
-Second.Size = UDim2.new(0, 517, 0, 388)
+Second.Position = UDim2.new(0, 0, 0.54631567, 0)
+Second.Size = UDim2.new(0, 517, 0, 385)
+Second.Visible = false
 Second.ZIndex = 0
 
 UICorner_7.CornerRadius = UDim.new(0.100000001, 0)
@@ -292,6 +310,17 @@ Left.Text = "<"
 Left.TextColor3 = Color3.fromRGB(255, 255, 255)
 Left.TextSize = 68.000
 
+Right_2.Name = "Right"
+Right_2.Parent = Second
+Right_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Right_2.BackgroundTransparency = 1.000
+Right_2.Position = UDim2.new(0.874274731, 0, 0.010309278, 0)
+Right_2.Size = UDim2.new(0, 64, 0, 388)
+Right_2.Font = Enum.Font.FredokaOne
+Right_2.Text = ">"
+Right_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Right_2.TextSize = 68.000
+
 Info.Name = "Info"
 Info.Parent = Drag
 Info.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
@@ -351,9 +380,142 @@ CMD.TextColor3 = Color3.fromRGB(255, 255, 255)
 CMD.TextSize = 63.000
 CMD.TextWrapped = true
 
+Reflex.Name = "Reflex"
+Reflex.Parent = Info
+Reflex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Reflex.BackgroundTransparency = 1.000
+Reflex.Position = UDim2.new(0.023210831, 0, 0, 0)
+Reflex.Size = UDim2.new(0, 490, 0, 388)
+Reflex.Visible = false
+Reflex.Font = Enum.Font.FredokaOne
+Reflex.Text = "Reflex - Prison life/ Universal gui. Has backdoor games not sure which though"
+Reflex.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reflex.TextSize = 63.000
+Reflex.TextWrapped = true
+
+Solaris.Name = "Solaris"
+Solaris.Parent = Info
+Solaris.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Solaris.BackgroundTransparency = 1.000
+Solaris.Size = UDim2.new(0, 517, 0, 388)
+Solaris.Visible = false
+Solaris.Font = Enum.Font.FredokaOne
+Solaris.Text = "Solaris - Has many games, Arsenal, CBRO, Phantom Forces + More"
+Solaris.TextColor3 = Color3.fromRGB(255, 255, 255)
+Solaris.TextSize = 63.000
+Solaris.TextWrapped = true
+
+Third.Name = "Third"
+Third.Parent = Drag
+Third.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Third.Position = UDim2.new(0, 0, 0.54631567, 0)
+Third.Size = UDim2.new(0, 517, 0, 385)
+Third.ZIndex = 0
+
+UICorner_12.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_12.Parent = Third
+
+OpenwithRightShift_3.Name = "Open with Right Shift"
+OpenwithRightShift_3.Parent = Third
+OpenwithRightShift_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenwithRightShift_3.BackgroundTransparency = 1.000
+OpenwithRightShift_3.Position = UDim2.new(0, 0, 0.868766427, 0)
+OpenwithRightShift_3.Size = UDim2.new(0, 517, 0, 50)
+OpenwithRightShift_3.Font = Enum.Font.FredokaOne
+OpenwithRightShift_3.Text = "Open GUI with Right  Shift                                          Made by Arch"
+OpenwithRightShift_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenwithRightShift_3.TextSize = 20.000
+OpenwithRightShift_3.TextWrapped = true
+
+Reflex_2.Name = "Reflex"
+Reflex_2.Parent = Third
+Reflex_2.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Reflex_2.Position = UDim2.new(0.23210831, 0, 0.377952754, 0)
+Reflex_2.Size = UDim2.new(0, 277, 0, 62)
+Reflex_2.Font = Enum.Font.FredokaOne
+Reflex_2.Text = "Reflex"
+Reflex_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reflex_2.TextSize = 36.000
+
+UICorner_13.CornerRadius = UDim.new(1, 1)
+UICorner_13.Parent = Reflex_2
+
+VG.Name = "VG"
+VG.Parent = Third
+VG.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+VG.Position = UDim2.new(0.23210831, 0, 0.107611552, 0)
+VG.Size = UDim2.new(0, 277, 0, 62)
+VG.Font = Enum.Font.FredokaOne
+VG.Text = "V.G. Hub"
+VG.TextColor3 = Color3.fromRGB(255, 255, 255)
+VG.TextSize = 36.000
+
+UICorner_14.CornerRadius = UDim.new(1, 1)
+UICorner_14.Parent = VG
+
+Solaris_2.Name = "Solaris"
+Solaris_2.Parent = Third
+Solaris_2.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Solaris_2.Position = UDim2.new(0.23210831, 0, 0.648293972, 0)
+Solaris_2.Size = UDim2.new(0, 277, 0, 62)
+Solaris_2.Font = Enum.Font.FredokaOne
+Solaris_2.Text = "Solaris"
+Solaris_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Solaris_2.TextSize = 36.000
+
+UICorner_15.CornerRadius = UDim.new(1, 1)
+UICorner_15.Parent = Solaris_2
+
+ForMoreinfo_3.Name = "For More info"
+ForMoreinfo_3.Parent = Third
+ForMoreinfo_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ForMoreinfo_3.BackgroundTransparency = 1.000
+ForMoreinfo_3.Position = UDim2.new(0.023210831, 0, 0, 0)
+ForMoreinfo_3.Size = UDim2.new(0, 229, 0, 40)
+ForMoreinfo_3.Font = Enum.Font.FredokaOne
+ForMoreinfo_3.Text = "If * next to script right click for more info"
+ForMoreinfo_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ForMoreinfo_3.TextSize = 20.000
+ForMoreinfo_3.TextXAlignment = Enum.TextXAlignment.Left
+
+Left_2.Name = "Left"
+Left_2.Parent = Third
+Left_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Left_2.BackgroundTransparency = 1.000
+Left_2.Position = UDim2.new(0, 0, -0.00257731951, 0)
+Left_2.Size = UDim2.new(0, 64, 0, 388)
+Left_2.Font = Enum.Font.FredokaOne
+Left_2.Text = "<"
+Left_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Left_2.TextSize = 68.000
+
+TextLabel_4.Name = "*"
+TextLabel_4.Parent = Third
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.700193405, 0, 0.81091845, 0)
+TextLabel_4.Size = UDim2.new(0, 35, 0, 0)
+TextLabel_4.Font = Enum.Font.FredokaOne
+TextLabel_4.Text = "*"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 72.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Name = "*"
+TextLabel_5.Parent = Third
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.700193405, 0, 0.538191199, 0)
+TextLabel_5.Size = UDim2.new(0, 35, 0, 0)
+TextLabel_5.Font = Enum.Font.FredokaOne
+TextLabel_5.Text = "*"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 72.000
+TextLabel_5.TextWrapped = true
+
 -- Scripts:
 
-local function PQNMI_fake_script() -- Scripts.Handler 
+local function QIZPDQB_fake_script() -- Scripts.Handler 
 	local script = Instance.new('LocalScript', Scripts)
 
 	--//Dragable Dont Edit
@@ -422,13 +584,27 @@ local function PQNMI_fake_script() -- Scripts.Handler
 	--//Pages
 	local right = gui.Main.Right
 	local left = gui.Second.Left
+	local right2 = gui.Second.Right
+	local left2 = gui.Third.Left
 	right.MouseButton1Click:Connect(function()
 		right.Parent.Visible = false
 		left.Parent.Visible = true
+		cur = gui.Second
 	end)
 	left.MouseButton1Click:Connect(function()
 		left.Parent.Visible = false
 		right.Parent.Visible = true
+		cur = gui.Main
+	end)
+	right2.MouseButton1Click:Connect(function()
+		right2.Parent.Visible = false
+		left2.Parent.Visible = true
+		cur = gui.Third
+	end)
+	left2.MouseButton1Click:Connect(function()
+		left2.Parent.Visible = false
+		right2.Parent.Visible = true
+		cur = gui.Second
 	end)
 	
 	
@@ -469,7 +645,7 @@ local function PQNMI_fake_script() -- Scripts.Handler
 		gui.Main.Visible = false
 		gui.Second.Visible = false
 		gui.Info.Visible = true
-		gui.Info.CMD.Visible = true
+		gui.Info.Yiff.Visible = true
 	end)
 	
 	
@@ -496,6 +672,8 @@ local function PQNMI_fake_script() -- Scripts.Handler
 		info.DEX.Visible = false
 		info.CMD.Visible = false
 		info.Yiff.Visible = false
+		info.Solaris.Visible = false
+		info.Reflex.Visible = false
 	end)
 	
 	--//T3PHub
@@ -512,5 +690,32 @@ local function PQNMI_fake_script() -- Scripts.Handler
 	Orca.MouseButton2Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua"))()
 	end)
+	
+	--//Reflex
+	local reflex = gui.Third.Reflex
+	reflex.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/8DmDNevw'))()
+	end)
+	reflex.MouseButton2Click:Connect(function()
+		cur.Visible = false
+		gui.Info.Reflex.Visible = true
+	end)
+	
+	--//Solaris
+	local Solaris = gui.Third.Solaris
+	Solaris.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
+	end)
+	Solaris.MouseButton2Click:Connect(function()
+		cur.Visible = false
+		gui.Info.Solaris.Visible = true
+	end)
+	
+	--//V.G Hub
+	local VG = gui.Third.VG
+	VG.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+	
 end
-coroutine.wrap(PQNMI_fake_script)()
+coroutine.wrap(QIZPDQB_fake_script)()
